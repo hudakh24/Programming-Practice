@@ -1,1 +1,9 @@
-*.exe
+# Ignore specific output files
+program_output
+output_file
+
+# Ignore all files in a specific directory
+/build/
+
+# Ignore files without extensions in a specific directory
+/path/to/directory/*
