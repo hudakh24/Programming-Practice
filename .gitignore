@@ -7,3 +7,6 @@ output_file
 
 # Ignore files without extensions in a specific directory
 /path/to/directory/*
+
+# Ignore all executable files in the project directory
+/*
