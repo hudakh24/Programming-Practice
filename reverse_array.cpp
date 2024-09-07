@@ -25,13 +25,13 @@ void reverseArray(int arr[], int size){
 }
 
 int main() {
-    int n1;
+    int n;
     
-    cout << "Enter the size of the first array: ";
-    cin >> n1;
-    int arr1[n1];
-    cout << "Enter the elements of the first array:" << endl;
-    inputArray(arr1, n1);
-    reverseArray(arr1, n1);
-    displayArray(arr1, n1);
+    cout << "Enter the size of the array: ";
+    cin >> n;
+    int arr[n];
+    cout << "Enter the elements of the array:" << endl;
+    inputArray(arr, n);
+    reverseArray(arr, n);
+    displayArray(arr, n);
 }
