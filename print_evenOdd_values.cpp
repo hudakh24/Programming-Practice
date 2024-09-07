@@ -12,7 +12,7 @@ void printResult(int arr[], int size)
     cout << "Values at Even Indicies\n";
     for (int i = 0; i < size; i++)
     {
-        if (arr[i] % 2 == 0)
+        if (i % 2 == 0)
         {
             cout << arr[i] << " ";
         }
@@ -22,7 +22,7 @@ cout << "\n";
 cout << "Values at Odd Indicies\n";
 for (int i = 0; i < size; i++)
 {
-    if (arr[i] % 2 != 0)
+    if (i % 2 != 0)
     {
         cout << arr[i] << " ";
     }
