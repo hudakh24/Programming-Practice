@@ -28,7 +28,7 @@ using namespace std;
         cout << "Enter the value of node " << i  << ": ";
         cin >> value;
 
-        Node *newNode = new Node(); // dynamically created new node
+        Node *newNode = new Node(); // dynamically creating new node
         newNode->data = value;
         newNode->next = nullptr;
 
